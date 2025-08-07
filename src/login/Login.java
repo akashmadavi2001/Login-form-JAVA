@@ -92,7 +92,7 @@ public class Login extends javax.swing.JFrame {
             }
         });
 
-        jButton1.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jButton1.setFont(new java.awt.Font("Segoe UI", 1, 12)); 
         jButton1.setText("Signup");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -183,7 +183,7 @@ public class Login extends javax.swing.JFrame {
         } else {
             JOptionPane.showMessageDialog(null, "Worng name and password", "Message", JOptionPane.ERROR_MESSAGE);
         }
-    }
+    };
 
     private void bexitActionPerformed(java.awt.event.ActionEvent evt) {
         System.exit(0);
@@ -207,7 +207,7 @@ public class Login extends javax.swing.JFrame {
             logger.log(java.util.logging.Level.SEVERE, null, ex);
         }
         java.awt.EventQueue.invokeLater(() -> new Login().setVisible(true));
-    }
+    };
     private javax.swing.JButton bexit;
     private javax.swing.JButton blogin;
     private javax.swing.JButton jButton1;
