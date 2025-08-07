@@ -165,7 +165,7 @@ public class Signup extends javax.swing.JFrame {
         } else if (sname.getText().contains(sname.getText()) && snpass.getText().contains(snpass.getText())) {
             JOptionPane.showMessageDialog(null, "Signup Successfull");
         }
-    }
+    };
 
     private void bclearActionPerformed(java.awt.event.ActionEvent evt) {
         sname.setText("");
@@ -193,7 +193,7 @@ public class Signup extends javax.swing.JFrame {
             logger.log(java.util.logging.Level.SEVERE, null, ex);
         }
      java.awt.EventQueue.invokeLater(() -> new Signup().setVisible(true));
-    }
+    };
 
     private javax.swing.JButton bclear;
     private javax.swing.JButton bsignup;
